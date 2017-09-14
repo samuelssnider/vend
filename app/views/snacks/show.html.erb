@@ -1,0 +1,8 @@
+<h1><%= @snack.name %>: $<%= (@snack.price.to_f / 100) %></h1>
+<p>
+	Locations: <% @snack.machines.each do |machine| %>
+	<%= machine.location %> <br />
+	
+	<%= machine.snacks.count %> Kinds of snacks, average price of $<%= (machine.average_price.to_f / 100)%> <br />
+	<% end %>
+</p>

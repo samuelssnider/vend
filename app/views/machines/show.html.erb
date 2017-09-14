@@ -4,6 +4,6 @@
 </p>
 <% @machine.snacks.each do |snack| %>
 <p>
-	<%= snack.name %>: $<%= (snack.price.to_f / 100).round(2) %>
+	<%= snack.name %>: $<%= (snack.price.to_f / 100) %>
 </p>
 <% end %>

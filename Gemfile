@@ -11,6 +11,7 @@ gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 
+
 gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 
@@ -20,6 +21,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'capybara'
   gem 'launchy'
+  gem 'database_cleaner'
 end
 
 group :development do
